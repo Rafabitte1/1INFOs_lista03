@@ -11,11 +11,18 @@
     */
 
     //ENTRADA
-    
-    
+    const tempo = parseInt(prompt("informe o tempo gasto"))
+    const preço = Number(prompt("informe o preço"))
+    const LitrodeCombustivel = Number(prompt("informe a quantididade de litros consumidos"))
+    const quilometragem = Number (prompt("informe quantos pecorrido"))
     //PROCESSAMENTO
-    
-    
+    const Velocidademedia = quilometragem / tempo
+    const consumidos = litro / LitrodeCombustivel
+    const totalcombustivel = LitrodeCombustivel *preço
+    const viagem = totalcombustivel / quilometragem
     //SAÍDA
-    
+    document.write(`velocidade media é ${Velocidademedia}<br>`)
+    document.write(`cosumo é ${consumidos.toFixed(2)}<br>`)
+    document.write(`custo R$${totalcombustivel.toFixed(2)}<br>`)
+    document.write(`tempo de viagem é ${viagem.toFixed(2)}<br>`)
 </script>

@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # 1INFOs_lista03
 =======
+=======
+>>>>>>> 1a7239e (Initial commit)
 # Lista de Exercícios [02] - Variáveis e Operadores
 
 ### **<u>[Problema 01: Área do triângulo](01_areaTriangulo.html)</u>**
@@ -53,4 +56,10 @@ Peça para o usuário informar quanto tempo gastou durante a viagem, quantos lit
 
 ### **[<u>Problema 14: Comissão por venda de veículos</u>](14_comissaoVenda.html)**
 Considere que uma revendedora paga a seus funcionários um salário fixo por mês, mais R$ 225,00 para cada carro vendido e, além disso, 5% do valor das vendas efetuadas por ele. Pergunte ao usuário qual o seu salário fixo, quantos carros foram vendidos e o valor total das vendas. Calcule e apresente qual a remuneração final do vendedor, funcionário da revendedora. Também apresente qual será o salário após o desconto de 20% de impostos.
+<<<<<<< HEAD
 >>>>>>> 5784bc6 (first commit)
+=======
+=======
+# 1INFOs_lista03
+>>>>>>> 0fdaf00 (Initial commit)
+>>>>>>> 1a7239e (Initial commit)
