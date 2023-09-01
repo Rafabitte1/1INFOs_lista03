@@ -6,11 +6,11 @@
     */
 
     //ENTRADA
-
-    
+    const preçooriginal = Number(prompt("informe quantos é o preço oringinal"))
+    const preçopromocional = Number(prompt("infoeme o preço promocional"))
     //PROCESSAMENTO
-    
-    
+    const desconto = preçooriginal - preçopromocional
+    const promoção = (desconto / preçooriginal)* 100
     //SAÍDA
-    
+    alert(`Preço na promoção é R$${promoção.toFixed(2)}`)
 </script>
