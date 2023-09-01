@@ -6,11 +6,11 @@
     */
 
     //ENTRADA
-    
-    
+    const salário = Number(prompt("informe o seu salario "))
+    let gratificação = 200
     //PROCESSAMENTO
-    
-    
+    const descontado = 0.10 * salário
+    const recebe = salário + gratificação - descontado
     //SAÍDA
-    
+    document.write(`seu salario é R$${recebe.toFixed(2)}`)
 </script>
