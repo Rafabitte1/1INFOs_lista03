@@ -10,11 +10,14 @@
     */
 
     //ENTRADA
-
-    
+    const horasPedreiro = parseInt(prompt("Informe quantas horas de trabalodo pedreiro"))
+    const horasPintor = parseInt(prompt("informe horas do pintor"))
     //PROCESSAMENTO
-    
-    
+    const cobrapedreiro = horasPedreiro * 30
+    const cobrapintor = horasPintor * 25
+    const envolvidos = cobrapedreiro + cobrapintor
     //SAÍDA
-    
+    document.write(`deverar pro pedreiro R$${cobrapedreiro.toFixed(2)}<br>`)
+    document.write(`deverar pro pintor R$${cobrapintor.toFixed(2)}<br>`)
+    document.write(`custo total da obra R$${envolvidos.toFixed(2)}`)
 </script>
